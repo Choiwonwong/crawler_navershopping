@@ -3,12 +3,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-
-def chrome_driver(chromeDriverPath):
+def chrome_driver(chromeDriverPath, headless = False):
     service = webdriver.ChromeService(executable_path=chromeDriverPath, log_output='log/test_log')
     options = webdriver.ChromeOptions() # 옵션 지정 객체
     options.add_argument("--start-maximized") # 화면 최대화
-    # options.add_argument("--headless") # 백그라운드 명시적 지정
+    if headless:
+        options.add_argument("--headless") # 백그라운드 명시적 지정
     driver = webdriver.Chrome(service=service, options=options)
     return driver
 
