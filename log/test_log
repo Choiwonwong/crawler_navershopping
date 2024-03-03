@@ -1,0 +1,605 @@
+[1709460206.942][INFO]: Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 57210
+[1709460206.942][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1709460207.013][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--start-maximized" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1709460207.014][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.014][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.014][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/Google Chrome.app/Contents/MacOS/Google Chrome
+[1709460207.014][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/Chromium.app/Contents/MacOS/Chromium
+[1709460207.014][INFO]: Browser search. Trying... /Users/choiwonwong/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.014][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/.bun/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.11/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.10/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... ~/.dotnet/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Mono.framework/Versions/Current/Commands/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Applications/Postgres.app/Contents/Versions/latest/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/.bun/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /opt/anaconda3/condabin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.11/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.10/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/developement/flutter/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/developement/flutter/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Users/choiwonwong/.bun/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.11/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.10/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.015][INFO]: Browser search. Trying... ~/.dotnet/tools/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Library/Frameworks/Mono.framework/Versions/Current/Commands/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Applications/Postgres.app/Contents/Versions/latest/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Users/choiwonwong/STUDY/NS_CRAWL/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Users/choiwonwong/.bun/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /opt/anaconda3/condabin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.11/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Library/Frameworks/Python.framework/Versions/3.10/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Users/choiwonwong/developement/flutter/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Users/choiwonwong/developement/flutter/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1709460207.016][INFO]: Browser search. Trying... /Users/choiwonwong/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1709460207.016][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1709460207.016][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1709460207.016][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1709460207.016][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1709460207.016][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1709460207.016][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1709460207.016][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/n3/c5zkytd96ds30bw6716dd2fh0000gn/T/.org.chromium.Chromium.tfgejs data:,
+[1709460207.725][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1709460207.733][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "122.0.6261.94",
+      "chrome": {
+         "chromedriverVersion": "122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})",
+         "userDataDir": "/var/folders/n3/c5zkytd96ds30bw6716dd2fh0000gn/T/.org.chromium.Chromium.tfgejs"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57217"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "db16f4a8822035fd67f8ffc4198326e4"
+}
+[1709460207.742][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND Navigate {
+   "url": "https://www.naver.com"
+}
+[1709460207.744][INFO]: Waiting for pending navigations...
+[1709460207.749][INFO]: Done waiting for pending navigations. Status: ok
+[1709460207.826][INFO]: Waiting for pending navigations...
+[1709460208.310][INFO]: Done waiting for pending navigations. Status: ok
+[1709460208.310][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE Navigate
+[1709460208.311][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND SetTimeouts {
+   "implicit": 5000
+}
+[1709460208.311][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE SetTimeouts
+[1709460208.312][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[2]/div[1]/div/div[5]/ul/li[4]/a"
+}
+[1709460208.312][INFO]: Waiting for pending navigations...
+[1709460208.317][INFO]: Done waiting for pending navigations. Status: ok
+[1709460208.430][INFO]: Waiting for pending navigations...
+[1709460208.449][INFO]: Done waiting for pending navigations. Status: ok
+[1709460208.449][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.2B7A35E72E70AAD2B3CEF5CF2A8C761A.d.8C9B224263F23A84FE820F6F24AD9C5A.e.71"
+}
+[1709460208.450][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ClickElement {
+   "id": "f.2B7A35E72E70AAD2B3CEF5CF2A8C761A.d.8C9B224263F23A84FE820F6F24AD9C5A.e.71"
+}
+[1709460208.450][INFO]: Waiting for pending navigations...
+[1709460208.455][INFO]: Done waiting for pending navigations. Status: ok
+[1709460208.616][INFO]: Waiting for pending navigations...
+[1709460208.617][INFO]: Done waiting for pending navigations. Status: ok
+[1709460208.617][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ClickElement
+[1709460208.618][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND SetTimeouts {
+   "implicit": 3000
+}
+[1709460208.618][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE SetTimeouts
+[1709460208.618][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND GetWindows {
+}
+[1709460208.622][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE GetWindows [ "2B7A35E72E70AAD2B3CEF5CF2A8C761A", "CDB6A22AEC16051CE155FCD242F5FDE4" ]
+[1709460208.623][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND SwitchToWindow {
+   "handle": "CDB6A22AEC16051CE155FCD242F5FDE4"
+}
+[1709460208.624][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE SwitchToWindow
+[1709460208.624][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[3]/div/div[1]/div/div/div/div[2]/div/div[2]/div/div[2]/form/div[1]/div/input"
+}
+[1709460208.624][INFO]: Waiting for pending navigations...
+[1709460209.518][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.524][INFO]: Waiting for pending navigations...
+[1709460209.524][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.524][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.3FD400366109D5C6F6806FDEC5BA32BA.e.12"
+}
+[1709460209.525][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ClickElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.3FD400366109D5C6F6806FDEC5BA32BA.e.12"
+}
+[1709460209.525][INFO]: Waiting for pending navigations...
+[1709460209.525][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.563][INFO]: Waiting for pending navigations...
+[1709460209.569][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.569][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ClickElement
+[1709460209.570][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.3FD400366109D5C6F6806FDEC5BA32BA.e.12",
+   "text": "아이폰 14 Pro",
+   "value": [ "아", "이", "폰", " ", "1", "4", " ", "P", "r", "o" ]
+}
+[1709460209.570][INFO]: Waiting for pending navigations...
+[1709460209.575][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.644][INFO]: Waiting for pending navigations...
+[1709460209.645][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.645][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460209.645][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.3FD400366109D5C6F6806FDEC5BA32BA.e.12",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460209.645][INFO]: Waiting for pending navigations...
+[1709460209.645][INFO]: Done waiting for pending navigations. Status: ok
+[1709460209.656][INFO]: Waiting for pending navigations...
+[1709460210.969][INFO]: Done waiting for pending navigations. Status: ok
+[1709460210.969][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460210.969][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND SetTimeouts {
+   "implicit": 3000
+}
+[1709460210.969][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE SetTimeouts
+[1709460210.970][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460210.970][INFO]: Waiting for pending navigations...
+[1709460210.970][INFO]: Done waiting for pending navigations. Status: ok
+[1709460210.971][INFO]: Waiting for pending navigations...
+[1709460210.972][INFO]: Done waiting for pending navigations. Status: ok
+[1709460210.972][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 0
+[1709460210.972][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460210.975][INFO]: Waiting for pending navigations...
+[1709460210.975][INFO]: Done waiting for pending navigations. Status: ok
+[1709460210.979][INFO]: Waiting for pending navigations...
+[1709460210.981][INFO]: Done waiting for pending navigations. Status: ok
+[1709460210.981][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460210.982][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460210.982][INFO]: Waiting for pending navigations...
+[1709460210.982][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.003][INFO]: Waiting for pending navigations...
+[1709460211.004][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.004][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.110][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.110][INFO]: Waiting for pending navigations...
+[1709460211.118][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.125][INFO]: Waiting for pending navigations...
+[1709460211.125][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.125][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 679
+[1709460211.126][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.126][INFO]: Waiting for pending navigations...
+[1709460211.126][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.128][INFO]: Waiting for pending navigations...
+[1709460211.128][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.128][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.129][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.129][INFO]: Waiting for pending navigations...
+[1709460211.129][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.166][INFO]: Waiting for pending navigations...
+[1709460211.167][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.167][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.273][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.273][INFO]: Waiting for pending navigations...
+[1709460211.273][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.275][INFO]: Waiting for pending navigations...
+[1709460211.275][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.275][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 966
+[1709460211.276][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.276][INFO]: Waiting for pending navigations...
+[1709460211.276][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.280][INFO]: Waiting for pending navigations...
+[1709460211.280][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.280][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.281][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.281][INFO]: Waiting for pending navigations...
+[1709460211.281][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.300][INFO]: Waiting for pending navigations...
+[1709460211.300][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.300][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.402][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.402][INFO]: Waiting for pending navigations...
+[1709460211.432][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.441][INFO]: Waiting for pending navigations...
+[1709460211.441][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.441][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 3269
+[1709460211.441][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.441][INFO]: Waiting for pending navigations...
+[1709460211.442][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.444][INFO]: Waiting for pending navigations...
+[1709460211.444][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.444][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.445][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.445][INFO]: Waiting for pending navigations...
+[1709460211.445][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.469][INFO]: Waiting for pending navigations...
+[1709460211.469][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.469][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.573][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.573][INFO]: Waiting for pending navigations...
+[1709460211.574][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.575][INFO]: Waiting for pending navigations...
+[1709460211.576][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.576][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 3588
+[1709460211.576][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.576][INFO]: Waiting for pending navigations...
+[1709460211.577][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.581][INFO]: Waiting for pending navigations...
+[1709460211.581][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.581][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.582][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.582][INFO]: Waiting for pending navigations...
+[1709460211.583][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.601][INFO]: Waiting for pending navigations...
+[1709460211.601][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.601][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.707][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.707][INFO]: Waiting for pending navigations...
+[1709460211.720][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.727][INFO]: Waiting for pending navigations...
+[1709460211.727][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.727][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 5307
+[1709460211.727][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.728][INFO]: Waiting for pending navigations...
+[1709460211.728][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.735][INFO]: Waiting for pending navigations...
+[1709460211.736][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.736][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.737][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.737][INFO]: Waiting for pending navigations...
+[1709460211.737][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.755][INFO]: Waiting for pending navigations...
+[1709460211.755][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.755][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460211.860][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460211.861][INFO]: Waiting for pending navigations...
+[1709460211.891][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.910][INFO]: Waiting for pending navigations...
+[1709460211.910][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.910][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 7407
+[1709460211.911][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460211.911][INFO]: Waiting for pending navigations...
+[1709460211.911][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.913][INFO]: Waiting for pending navigations...
+[1709460211.913][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.913][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460211.914][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460211.914][INFO]: Waiting for pending navigations...
+[1709460211.917][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.932][INFO]: Waiting for pending navigations...
+[1709460211.933][INFO]: Done waiting for pending navigations. Status: ok
+[1709460211.933][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460212.036][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460212.036][INFO]: Waiting for pending navigations...
+[1709460212.036][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.038][INFO]: Waiting for pending navigations...
+[1709460212.038][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.038][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 7463
+[1709460212.039][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460212.039][INFO]: Waiting for pending navigations...
+[1709460212.039][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.043][INFO]: Waiting for pending navigations...
+[1709460212.043][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.043][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460212.044][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460212.044][INFO]: Waiting for pending navigations...
+[1709460212.044][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.062][INFO]: Waiting for pending navigations...
+[1709460212.062][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.062][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460212.164][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460212.164][INFO]: Waiting for pending navigations...
+[1709460212.181][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.187][INFO]: Waiting for pending navigations...
+[1709460212.187][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.187][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 9136
+[1709460212.188][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460212.188][INFO]: Waiting for pending navigations...
+[1709460212.188][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.190][INFO]: Waiting for pending navigations...
+[1709460212.190][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.190][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460212.191][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460212.191][INFO]: Waiting for pending navigations...
+[1709460212.191][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.208][INFO]: Waiting for pending navigations...
+[1709460212.208][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.208][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460212.314][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460212.314][INFO]: Waiting for pending navigations...
+[1709460212.314][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.316][INFO]: Waiting for pending navigations...
+[1709460212.316][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.316][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 9810
+[1709460212.317][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460212.317][INFO]: Waiting for pending navigations...
+[1709460212.317][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.321][INFO]: Waiting for pending navigations...
+[1709460212.321][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.321][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460212.321][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460212.321][INFO]: Waiting for pending navigations...
+[1709460212.322][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.341][INFO]: Waiting for pending navigations...
+[1709460212.341][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.341][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460212.447][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460212.447][INFO]: Waiting for pending navigations...
+[1709460212.447][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.449][INFO]: Waiting for pending navigations...
+[1709460212.450][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.450][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 9876
+[1709460212.450][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND FindElement {
+   "using": "css selector",
+   "value": "body"
+}
+[1709460212.451][INFO]: Waiting for pending navigations...
+[1709460212.451][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.455][INFO]: Waiting for pending navigations...
+[1709460212.455][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.455][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213"
+}
+[1709460212.456][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND TypeElement {
+   "id": "f.CDB6A22AEC16051CE155FCD242F5FDE4.d.13DE25AA202FB0327770BEF65173EB72.e.213",
+   "text": "",
+   "value": [ "" ]
+}
+[1709460212.456][INFO]: Waiting for pending navigations...
+[1709460212.457][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.478][INFO]: Waiting for pending navigations...
+[1709460212.478][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.478][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE TypeElement
+[1709460212.580][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return window.scrollY"
+}
+[1709460212.580][INFO]: Waiting for pending navigations...
+[1709460212.581][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.583][INFO]: Waiting for pending navigations...
+[1709460212.583][INFO]: Done waiting for pending navigations. Status: ok
+[1709460212.583][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE ExecuteScript 9876
+[1709460212.595][INFO]: [db16f4a8822035fd67f8ffc4198326e4] COMMAND QuitAll {
+}
+[1709460212.646][INFO]: [db16f4a8822035fd67f8ffc4198326e4] RESPONSE QuitAll
