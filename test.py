@@ -1,10 +1,18 @@
-# import requests
+from openpyxl import load_workbook
+import sys
 
-# # print(requests.get(url = "https://adcr.naver.com/adcr?x=ottTaJOFygkVTzzL2JKOJv///w==ksJE//8uJ+SK+Pduva+sdehSm+zpBxj9bUGlh3zjTRb1xG7y5JAVEYFSzrwpRmD56VDip0wfdetsRMF1K5auD6IZqMZhVjj6u4wVIIPrECsZwqUmte1Jh1n8eFnPtwNXAuxrvmbUFqZJ06yH5l7otxEy9rP+bb+T+SXN7ceIhPgRa3qxFmHhYyXkexmJc2vxvAU+Yzp8lXjUYz6hkp/sLQjnPhcd5vacZRJ13+eziEozwoD5sb5IerSIJEYVn/kaGJn+XHhcm4QMWb32sQoGDP1CN6hrmAcJHCoqHiA8wyX7lR12VvUcDIYZKBT1wgyeTRHsXmaU8RKg6oyyJLw1QeBz80S2FMXBngReOrwysoyK3MVH6sEiYzUmsRGARJXuXWPkY0+31pXpB7lBAT5DPnAW6cKSyKAwGwPmo7mud18MqIqFeJlmhzA9/fzOOZCySEXq/hzbN6v3y2WmZYG7jaO/fwJreWFHY9vmpJPtDb685CmCAaoo2p15Bv3t84/F+JQU90gGDz3cFFR1hLfFez7fCoVDyWvaaxLjp8mUdxybbwwnjdwJss1QEDalR/CBXapTg9VlrKUjQyEWA53JjYn+vJLGs7wwgNouXbfePtku990naWkRxn3QdMRB3rJItKO7H+NQVY5nQqNm33AjnHTQvAmZhvx2nKepb+fDZtSIZvgnaLR4lr59VBaPoX+r4vJTpTySXp/hPQTWAoX2BSehwMDqx3OTnuNBsARA1tnLE1r2DKi55ZOhCr0pyMnlu+9rC3hCDQACpn/5jAqbtTTfxxi65OlCH8qm1rw4b3ilkRFzwmqmlRxVg0TEt08HY3E6oVaUMX9i2GCS9wTiOeptEaJuqAtMDgwJiPWVF2WrF3z2PLFLrTB3hUxcp8sH0YsUy+xo4+1Hgit8/EDGb2MJK4Y/1MhmhRePYrHZ4fR8jqcZQKBi6TNHhzsjYQQmeqMI7tyxCYogPKpDlVTAO/KLzoxAByWOSOGH+0bev2bo=", allow_redirects=True, timeout=5).json)
-# # print(requests.get(url = "https://adcr.naver.com/adcr?x=ottTaJOFygkVTzzL2JKOJv///w==ksJE//8uJ+SK+Pduva+sdehSm+zpBxj9bUGlh3zjTRb1xG7y5JAVEYFSzrwpRmD56VDip0wfdetsRMF1K5auD6IZqMZhVjj6u4wVIIPrECsZwqUmte1Jh1n8eFnPtwNXAuxrvmbUFqZJ06yH5l7otxEy9rP+bb+T+SXN7ceIhPgRa3qxFmHhYyXkexmJc2vxvAU+Yzp8lXjUYz6hkp/sLQjnPhcd5vacZRJ13+eziEozwoD5sb5IerSIJEYVn/kaGJn+XHhcm4QMWb32sQoGDP1CN6hrmAcJHCoqHiA8wyX7lR12VvUcDIYZKBT1wgyeTRHsXmaU8RKg6oyyJLw1QeBz80S2FMXBngReOrwysoyK3MVH6sEiYzUmsRGARJXuXWPkY0+31pXpB7lBAT5DPnAW6cKSyKAwGwPmo7mud18MqIqFeJlmhzA9/fzOOZCySEXq/hzbN6v3y2WmZYG7jaO/fwJreWFHY9vmpJPtDb685CmCAaoo2p15Bv3t84/F+JQU90gGDz3cFFR1hLfFez7fCoVDyWvaaxLjp8mUdxybbwwnjdwJss1QEDalR/CBXapTg9VlrKUjQyEWA53JjYn+vJLGs7wwgNouXbfePtku990naWkRxn3QdMRB3rJItKO7H+NQVY5nQqNm33AjnHTQvAmZhvx2nKepb+fDZtSIZvgnaLR4lr59VBaPoX+r4vJTpTySXp/hPQTWAoX2BSehwMDqx3OTnuNBsARA1tnLE1r2DKi55ZOhCr0pyMnlu+9rC3hCDQACpn/5jAqbtTTfxxi65OlCH8qm1rw4b3ilkRFzwmqmlRxVg0TEt08HY3E6oVaUMX9i2GCS9wTiOeptEaJuqAtMDgwJiPWVF2WrF3z2PLFLrTB3hUxcp8sH0YsUy+xo4+1Hgit8/EDGb2MJK4Y/1MhmhRePYrHZ4fR8jqcZQKBi6TNHhzsjYQQmeqMI7tyxCYogPKpDlVTAO/KLzoxAByWOSOGH+0bev2bo=", allow_redirects=True))
-
-# test = [1, 2, 3, 4]
-# print(len(test))
-
-from datetime import datetime
-print(datetime.today().strftime("%Y-%m-%d"))
+if sys.argv[-1] == sys.argv[0]:
+    print("쿼리 시트가 입력되지 않았습니다.")
+    print("사용 방법은 main.py [쿼리 시트 명]입니다. 다시 시도해주세요")
+elif len(sys.argv) >= 3:
+    print("쿼리 시트 지정이 정확하지 않습니다.")
+    print("입력된 매개 변수의 수가", len(sys.argv) - 1, "개입니다.")
+    print("쿼리 시트 지정을 하나로 지정해주세요.")
+else:
+    fileName = sys.argv[1]
+    queryPath = "queries/" + fileName + '.xlsx'
+    queries = load_workbook(queryPath, data_only=True)
+    queriesSheet = queries['시트1']
+    queriesSheet.delete_rows(0)
+    for row in queriesSheet.rows:
+        print(row[0].value, row[1].value)

@@ -22,3 +22,19 @@ def processInfiniteScroll(chromeDriver):
         if beforeScrollY == afterScrollY:
             break
         beforeScrollY = afterScrollY
+
+def setupBeforeCrawling(chromeDriver):
+    driver = chromeDriver
+    # 네이버 메인 페이지 이동
+    driver.get("https://www.naver.com")
+    # 로딩 대기
+    driver.implicitly_wait(5)
+
+    # 쇼핑 버튼 클릭
+    driver.find_element(By.XPATH, "/html/body/div[2]/div[1]/div/div[5]/ul/li[4]/a").click() # XPATH
+    driver.implicitly_wait(3)
+
+    # 쇼핑 페이지 전환
+    shopping_window_handle = driver.window_handles[-1]
+    driver.switch_to.window(shopping_window_handle)
+    return driver
