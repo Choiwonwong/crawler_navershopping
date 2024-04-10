@@ -1,14 +1,15 @@
-from utils import *
-from crawling import *
 import time, sys
-from datetime import timedelta
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from datetime import datetime
+from datetime import datetime, timedelta
 from openpyxl import Workbook, load_workbook
 
+from utils import *
+from crawling import crawlItems, crawlAdItems
+
 driver_path = '/Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/chromedriver'
-output_name = datetime.today().strftime("%Y-%m-%d")
+output_name = datetime.now().strftime("%Y%m%d_%H%M%s")
 
 if __name__ == "__main__":
     if sys.argv[-1] == sys.argv[0]:
@@ -27,14 +28,16 @@ if __name__ == "__main__":
             print(fileName, "쿼리 시트에서 쿼리를 읽습니다.")
             querieXlsx = load_workbook(queryPath, data_only=True)
             queriesSheet = querieXlsx['시트1']
-            queriesSheet.delete_rows(0)
             queries = []
-            for query, pageCount in queriesSheet.rows:
-                queries.append([query.value, int(pageCount.value)])
+            for index, row in enumerate(queriesSheet.rows):
+                if index == 0:
+                    continue
+                queries.append([row[0].value, int(row[1].value)])
             print(len(queries), "개의 쿼리가 정상적으로 확인되었습니다.")
         except:
             print(fileName, "쿼리 시트에서 쿼리를 읽을 수 없습니다.")
             print("파일 이름 또는 시트 구조를 확인해주세요")
+            exit(1)
 
     start_time = time.time()
     driver = chrome_driver(driver_path)
@@ -66,16 +69,17 @@ if __name__ == "__main__":
 
             # 광고 제품 HTML 요소 - div > adProduct_inner__W_nuz
             adElements = items.find_elements(By.CLASS_NAME, "adProduct_inner__W_nuz")
-            adItems = crawlAdItems(adElements=adElements, subDriver=subDriver)
+            adItems = crawlAdItems(adElements=adElements, subDriver=subDriver, query=query)
 
             crawledItems += adItems
             adCount += len(adItems)
             
             # 미광고 제품 - div > product_inner__gr8QR
-            # elements = items.find_elements(By.CLASS_NAME, "product_inner__gr8QR")
-            # items = crawlItems(elements=elements, subDriver=subDriver)
+            elements = items.find_elements(By.CLASS_NAME, "product_inner__gr8QR")
+            items = crawlItems(elements=elements, subDriver=subDriver, query=query)
 
-            # crawledItems += items
+            crawledItems += items
+            count += len(items)
             try: 
                 shopping.find_element(By.CLASS_NAME, 'pagination_next__pZuC6').click()
                 print("===========[{}] - [{}]".format(query, pageIdx))
@@ -83,11 +87,10 @@ if __name__ == "__main__":
                 print("===========[{}]가 마지막 페이지입니다.".format(pageIdx))
                 break
 
-        print("===========[{}] 데이터 [{}] 건이 수집되었습니다.([{}]p)".format(query, adCount, pageCount))
-        # print("========= 수집된 데이터 개수: ", len(adItems) + len(items),"===========")
+        print("===========[{}] 데이터 [{}] 건이 수집되었습니다.([{}]p)".format(query, adCount + count, pageCount))
 
         search = shopping.find_element(By.XPATH, "/html/body/div/div/div[1]/div[2]/div/div[2]/div/div[2]/form/div[1]/div/input") # XPATH
-        search.send_keys(Keys.COMMAND, 'a') # 맥북이라 COMMAND인 듯
+        search.send_keys(Keys.COMMAND, 'a')
         search.send_keys(Keys.DELETE)
         search.click() 
 

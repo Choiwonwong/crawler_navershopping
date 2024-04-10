@@ -1,4 +1,6 @@
+import sys
 import time
+from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -37,4 +39,8 @@ def setupBeforeCrawling(chromeDriver):
     # 쇼핑 페이지 전환
     shopping_window_handle = driver.window_handles[-1]
     driver.switch_to.window(shopping_window_handle)
+
+    # 팝업 닫는 로직
+    if driver.find_element(By.CSS_SELECTOR, "div._buttonArea_button_area_2o-U6 > button._buttonArea_button_1jZae._buttonArea_close_34bcm"):
+        driver.find_element(By.CSS_SELECTOR, "div._buttonArea_button_area_2o-U6 > button._buttonArea_button_1jZae._buttonArea_close_34bcm").click()
     return driver

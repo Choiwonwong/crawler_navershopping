@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 driver_path = '/Users/choiwonwong/STUDY/NS_CRAWL/chromedriver-mac-arm64/chromedriver'
 
-def crawlItems(elements, subDriver):
+def crawlItems(elements, subDriver, query):
     items = []
     for e in elements:
         # 아이템 제목
@@ -18,7 +18,7 @@ def crawlItems(elements, subDriver):
             link = "수집된 SDP는 유효하지 않습니다."
 
         # 둥록 일자
-        registedDate = e.find_element(By.XPATH, "/html/body/div/div/div[2]/div[2]/div[4]/div[1]/div[2]/div/div[14]/div/div/div[2]/div[5]/span[1]").text[4:]
+        registedDate = e.find_element(By.XPATH, "//div/div/div[2]/div[5]/span[1]").text[4:]
         
         # 가격
         try: 
@@ -31,9 +31,9 @@ def crawlItems(elements, subDriver):
 
         # 카테고리
         categories = []
-        adElementCategories = e.find_elements(By.CLASS_NAME, "product_category__l4FWz.product_nohover__Z0Muw")
-        for adElementCategory in adElementCategories:
-            categories.append(adElementCategory.text)
+        elementCategories = e.find_elements(By.CLASS_NAME, "product_category__l4FWz.product_nohover__Z0Muw")
+        for elementCategory in elementCategories:
+            categories.append(elementCategory.text)
         categories = " > ".join(categories)
         # 광고 유무
         ad = False
@@ -49,6 +49,7 @@ def crawlItems(elements, subDriver):
             seller = "추가 처리 필요"
         
         item = {
+            "search_keyword": query,
             "title": title,
             "link": link,
             "price": price,
@@ -62,7 +63,7 @@ def crawlItems(elements, subDriver):
     return items
 
 # 광고 상품 크롤링
-def crawlAdItems(adElements, subDriver):
+def crawlAdItems(adElements, subDriver, query):
     adItems = []
     for adElement in adElements:
         # 아이템 제목
@@ -106,6 +107,7 @@ def crawlAdItems(adElements, subDriver):
             seller= sellerElement.text
         
         adItem = {
+            "search_keyword": query,
             "title": title,
             "link": link,
             "price": price,
